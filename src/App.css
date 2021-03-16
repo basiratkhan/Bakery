@@ -1,0 +1,127 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.sun {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #ffe865;
+    align-self: flex-end;
+    margin-right: 600px;
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 200px solid #db7070;
+    position: relative;
+}
+
+.title {
+    font-weight: bold;
+    color: green;
+    font-size: 18px;
+}
+
+.hoarding {
+    height: 50px;
+    width: 200px;
+    background-color: #8be5a1;
+    position: absolute;
+    left: -100px;
+    top: 170px;
+    z-index: 1;
+    border: 3px solid #27b327;
+}
+
+.base {
+    height: 350px;
+    width: 500px;
+    background-color: #c8bfbf;
+    position: relative;
+}
+
+.window1 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #afd3fd;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.door {
+    height: 260px;
+    width: 130px;
+    background-color: #e49c39;
+    position: absolute;
+    bottom: 0;
+    left: 185px;
+}
+
+.handle {
+    height: 5px;
+    width: 25px;
+    background-color: #a04e18;
+    position: absolute;
+    bottom: 125px;
+    left: 5px;
+}
+
+.window2 {
+    height: 90px;
+    width: 90px;
+    float: right;
+    border-radius: 50%;
+    background-color: #afd3fd;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.cookie-img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.mailbox {
+    height: 85px;
+    width: 110px;
+    float: right;
+    background-color: #998e8e;
+    position: absolute;
+    bottom: 75px;
+    right: 30px;
+}
+
+.mailbox-door {
+    height: 10px;
+    width: 90px;
+    float: right;
+    background-color: #5e534b;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.mail-label{
+    color: black;
+    font-size: 14px;
+    padding-top: 10px;
+}
